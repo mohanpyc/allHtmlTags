@@ -175,3 +175,69 @@ video{
 }
 
 
+
+
+/*  css part */
+
+
+
+
+
+
+
+
+/* css part */
+
+
+
+#cssHeader{
+    background-color:#1D4E89;
+    width: 98%;
+    margin: 0.5%;
+    padding: .7%;
+    text-align: center;
+    color: #eeeeee;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+#cssHeader :nth-child(2){
+    font-family: 'Montserrat', sans-serif;
+    font-size: 60px;
+}
+
+#htmlELms{
+    float: left;
+    font-family: 'Montserrat', sans-serif;
+    border: steelblue solid 3px;
+    border-radius: 1rem;
+    background-color: tomato;
+    color: #eeeeee;
+    text-align: center;
+    width: 98%;
+    margin: .5%;
+    padding: .7%;
+
+}
+
+#htmlElmsBtn1{
+    width: 300px;
+    height: 30px;
+    border: #1D4E89;
+    color: steelblue;
+    font-size: 16px;
+}
+
+#htmlElmLink{
+    text-decoration: none;
+}
+
+#giveStyles1{
+    width: 400px;
+    height: 200px;
+    border: teal solid 3px;
+    margin-top: 15px;
+    margin-left: 200px;
+}
+
+
