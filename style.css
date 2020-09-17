@@ -1,0 +1,136 @@
+#bodyexample{
+    color:red;
+}
+
+/* to style header */
+
+#headerDiv{
+    margin: .5%;
+    padding: .7%;
+    width: 98%;
+    background-color: khaki;
+    text-align: center;
+}
+
+/* introDiv */
+#div1{
+    margin:.5%;
+    float: left;
+    padding: 15px;
+  
+    width: 42%;
+    background-color: burlywood;
+}
+
+#textColor{
+    color:white;
+}
+
+
+
+/* h1 to h6 div */
+#div2{
+    padding:.7%;
+    margin:.5%;
+    float: left;
+    width: 52%;
+    background-color: silver;
+}
+
+
+/* para div */
+#div3{
+    float: left;
+    padding:.7%;
+    margin:.5%;
+    
+    width: 98%;
+    background-color: lightslategray;
+}
+
+
+
+/* unordered lists */
+#div4{
+    float: left;
+    padding:.7%;
+    margin:.5%;
+    
+    width: 45.5%;
+    background-color: khaki;
+}
+
+
+
+/* ordered lists */
+#div5{
+    float: left;
+    padding:.7%;
+    margin:.5%;
+   
+    width: 49%;
+    background-color: tan;
+
+}
+
+#div6{
+    float: left;
+    padding:.7%;
+    margin:.5%;
+    width: 45.5%;
+    background-color: skyblue;
+}
+
+#div7{
+    float: left;
+    padding:.7%;
+    margin:.5%;
+    width: 49%;
+    background-color: peru;
+
+}
+
+#div8{
+    float: left;
+    padding:.7%;
+    margin:.5%;
+    width: 98%;
+   
+    background-color: mediumseagreen;
+}
+
+#imageId{
+    float: left;
+    width: 48%;
+}
+
+#onlineImage{
+    margin-left: 4%;
+    float:left;
+    width:48%;
+}
+
+#div9{
+    margin:.5%;
+    padding:.7%;
+    float: left;
+    
+    width: 98%;
+    background-color: darkkhaki;
+}
+
+video{
+    float: left;
+    height: auto;
+    width: 100%;
+}
+
+#div10{
+    margin:.5%;
+    padding: .7%    ;
+    width:98%;
+    float: left;
+    background-color: goldenrod;
+}
+
+
