@@ -206,6 +206,54 @@ video{
     font-size: 60px;
 }
 
+
+
+#howToApply{
+    width: 47%;
+    background-color: lightslategray;
+    padding: .7%;
+    margin: .5%;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    float: left;
+    
+}
+#greencolor{
+    color: green;
+}
+
+#inlineStyles{
+    width: 47%;
+    background-color: chocolate;
+    padding: .7%;
+    margin: .5%;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    float: left;
+
+}
+
+#internalStyles{
+    width: 47%;
+    background-color: cornflowerblue;
+    padding: .7%;
+    margin: .5%;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    float: left;
+
+}
+#externalStyles{
+
+    width: 47%;
+    background-color: crimson;
+    padding: .7%;
+    margin: .5%;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    float: left;
+}
+
 #htmlELms{
     float: left;
     font-family: 'Montserrat', sans-serif;
