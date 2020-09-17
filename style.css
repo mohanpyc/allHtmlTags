@@ -125,7 +125,48 @@ video{
     width: 100%;
 }
 
+
 #div10{
+    margin:.5%;
+    padding:.7%;
+    float: left;
+    text-align: center;
+    width: 47%;
+    background-color: darksalmon;
+}
+#div11{
+    margin:.5%;
+    padding:.7%;
+    float: left;
+    text-align: center;
+    width: 47%;
+    background-color: darkcyan;
+}
+
+#div12{
+
+    margin:.5%;
+    padding:.7%;
+    float: left;
+    
+    width: 47%;
+    background-color: cadetblue;
+}
+
+
+#div13{
+
+    margin:.5%;
+    padding:.7%;
+    float: left;
+    width: 47%;
+    background-color: steelblue;
+}
+
+
+
+
+#structuralElms{
     margin:.5%;
     padding: .7%    ;
     width:98%;
