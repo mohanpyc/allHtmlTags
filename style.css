@@ -234,10 +234,10 @@ video{
 
 #giveStyles1{
     width: 400px;
-    height: 200px;
     border: teal solid 3px;
     margin-top: 15px;
     margin-left: 200px;
+    text-align: left;
 }
 
 
