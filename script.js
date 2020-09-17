@@ -5,7 +5,8 @@ function htmlElmstop(){
 
     let newBtn=document.createElement("button");
     newBtn.id="newBtn1"
-   
+    newBtn.style.padding="10px";
+    newBtn.style.margin="10px";
     let newlink=document.createElement("a");
     newlink.textContent="Apply Styles";
     newlink.setAttribute("href","#giveStyles1")

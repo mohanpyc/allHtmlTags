@@ -288,44 +288,83 @@
 
         <header id="cssHeader">
             <h1 id="cssHeaderH1"> css: styling the content</h1>
-            <h1 id="cssHeaderH2">this Makes website alive with the look</h1>
+            <h1 id="cssHeaderH2">this Makes website alive with good look</h1>
         </header>
 
-        <div id="howToApply">
-            <h1> there are three ways to apply css styles</h1>
-            <ol>
-                <li>Inline</li>
-                    <ul>
-                        <li>
-                            this is for each individual element
-                        </li>
-                    </ul>
-                <li>Internal
-                    <ul>
-                        <li>using style tag in head section of the html page</li>
-                    </ul>
-                </li>
+        <div id="styleInfo">
+           <h1>we can style html in three ways:</h1>
+           <ol>
+               <li>inline
+                   <ul>
+                       <li> this is applied to each element in the html page itself</li>
+                   </ul>
+               </li>
+               <li>internal
+                   <ul>
+                       <li>
+                           this is applied to html page in the head section
+                       </li>
+                   </ul>
+               </li>
+               <li>external
+                   <ul>
+                       <li>
+                           this is applied via external css file linked in the head section
+                       </li>
+                   </ul>
+               </li>
+           </ol>
 
-                <li>External
-                    <ul>
-                        <li>
-                            using external .css file by providing link in head section
-                        </li>
-                    </ul>
-                </li>
-            </ol>
         </div>
+        <div id="styleInfo2">
+            <h1>Highest priority</h1>
+            <h2>Inline Style</h2>
+            <h2> &lt;h3 style="color:white" &gt; <span id="greencolor">white color</span> &lt;/h3&gt; </h2>
+            <h2>Not suitable for all the page without using external or internal styles</h2>
+        </div>
+        
+        <div id="styleInfo3">
+            <h2>Internal Style</h2>
+            <h3> &lt;head&gt;  </h3>
+            <h3> &lt;style&gt; #greencolor {text-color: white;} &lt;/style&gt; </h3>
+            <h3> &lt;/head&gt;  </h3>
+            <h2>External Style</h2>
+            <h3> &lt;head&gt;  </h3>
+            <h3> &lt;link  rel="stylesheet"  href="style.css"  /&gt;  </h3>
+            <h3> &lt;/head&gt;  </h3>
 
-        <div id="inlineStyles">
-            <h2>highest Priority</h2>
-            <h3> &lt;h3 style="color:green" &gt; <span id="greencolor">green color</span> &lt;/h3&gt; </h3>
+            <h2> only difference between external stylesheet and internal styles is it's declaration</h2>
+            <h2> external or internal style's: pointing to the elements and giving properties to them</h2>
+            
+            <link rel="stylesheet" href="style2.css">
+           
+
         </div>
-        <div id="internalStyles">
-            <h1>how to present think your own</h1>
+        <div id="styleInfo4">
+            <h2> #idName{</h2>
+               <h3>
+                color:white;
+               </h3>
+                <h3>padding:10px;</h3>
+                <h2>}</h2>
+
+               <h2>.className{</h2>
+                <h3>margin:10px; </h3>
+                <h3> border:solid 2px green;</h3>
+                <h2>}</h2>
+                <h2>input{</h2>
+                    placeholder:nothing;
+                    <h2>}</h2>
+
         </div>
-        <div id="externalStyles">
-            <h1>how to present think your own</h1>
-        </div>
+        
+
+      
+        
+
+
+
+ 
 
         <div id="htmlELms">
             <h1> this deals with html elements intro div </h1>
@@ -341,7 +380,7 @@
                 <h2>}</h2>
               
             </div> 
-            <button onclick="cgStyleHeader()"><a id="htmlElmLink" href="#headerDiv">  change Styles</a> </button>
+            <button onclick="cgStyleHeader()"><a id="htmlElmLink" href="#headerDiv"> click here to change Styles</a> </button>
 
         </div>
 
